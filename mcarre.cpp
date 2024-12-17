@@ -18,7 +18,22 @@ void CCarre::Setcote(int cote1)
 	this->cote = cote1;
 }
 
+int CCarre::Getsx()
+{
+	return sx;
+}
+
+int CCarre::Getsy()
+{
+	return sy;
+}
+
+int CCarre::Getcote()
+{
+	return cote;
+}
+
 void CCarre::afficher()
 {
-	cout << sx << endl << sy << endl << cote << endl;
+	cout << Getsx() << endl << Getsy() << endl << Getcote() << endl;
 }
